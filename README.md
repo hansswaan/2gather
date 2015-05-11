@@ -1,4 +1,4 @@
-[![Circle CI](https://circleci.com/gh/eris-ltd/2gather.svg?style=svg)](https://circleci.com/gh/eris-ltd/2gather)
+[![Circle CI](https://circleci.com/gh/eris-ltd/2gather.svg?style=svg)](https://circleci.com/gh/eris-ltd/2gather) [![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.png)](https://dashboard.tutum.co/stack/deploy/)
 
 ## 2gather -- A Distributed Video Sharing Application
 
