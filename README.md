@@ -181,11 +181,11 @@ For other systems see the [JQ download page](http://stedolan.github.io/jq/downlo
 
 #### Step 2: Install the DApp
 
-Clone this repository into your `~/.decerver/dapps` folder:
+Clone this repository into your `~/.eris/dapps` folder:
 
 ```bash
-git clone git@github.com:eris-ltd/2gather.git ~/.decerver/dapps/2gather
-cd ~/.decerver/dapps/2gather
+git clone git@github.com:eris-ltd/2gather.git ~/.eris/dapps/2gather
+cd ~/.eris/dapps/2gather
 ```
 
 Install the front end dependencies:

@@ -16,7 +16,7 @@ ipfs:
   image: eris/ipfs
 
   volumes:
-    - ~/.decerver/filesystems/ipfs:/root/.go-ipfs:rw
+    - ~/.eris/filesystems/ipfs:/root/.ipfs:rw
 
   ports:
     - "4001:4001"

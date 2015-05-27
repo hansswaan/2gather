@@ -18,7 +18,7 @@ set -e
 echo ""
 echo ""
 echo "Making a Chain."
-cd ~/.decerver/dapps/2gather
+cd ~/.eris/dapps/2gather
 epm new --checkout --name 2gather --no-edit
 epm config log_level:${LOG_LEVEL:=3}
 echo "The chain has been made."
