@@ -9,13 +9,13 @@ deploy:
 !{AF
 modify-deploy:
 	"./AccountFactory.lll" => {{AF}}
-	(def 'DAPPDOUG 0xdaffe) => (def 'DAPPDOUG {{DOUG}})
+	"(def 'DAPPDOUG 0xdaffe)" => "(def 'DAPPDOUG {{DOUG}})"
 !}AF
 
 !{flaglist
 modify-deploy:
 	"./flagged.lll" => {{FLAG}}
-	(def 'DAPPDOUG 0xdaffe) => (def 'DAPPDOUG {{DOUG}})
+	"(def 'DAPPDOUG 0xdaffe)" => "(def 'DAPPDOUG {{DOUG}})"
 !}flaglist
 
 !{setup
