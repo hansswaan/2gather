@@ -20,7 +20,7 @@ test:
   override:
     # test in isolation
     # start with the test fig. wait for contracts to be compiled and deployed.
-    - "cd spec && docker-compose up --no-color --no-recreate > $CIRCLE_ARTIFACTS/test_rnd1_output.log & sleep 60 && go run spec/main.go":
+    - "cd spec && docker-compose up --no-color --no-recreate > $CIRCLE_ARTIFACTS/test_rnd1_output.log & sleep 60 && go run main.go":
         timeout: 900
     - "cd spec && docker-compose kill"
     # test against main testnet
