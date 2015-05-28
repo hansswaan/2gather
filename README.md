@@ -110,6 +110,14 @@ $ (sudo) docker-compose up
 
 Whichever command sequence you use, you should now have the DApp running in your terminal window. After that simply go to any web browser to [play with 2gather](http://localhost:3000/2gather).
 
+#### Note for boot2docker
+
+If you are running docker in OSX or Windows you will not be able to use `localhost` by default so you will need to access the dapp via the boot2docker's VM IP address. This can be acquired by `boot2docker ip`. In addition you will need to forward your ports from the boot2docker VM to the host with this command:
+
+```bash
+boot2docker ssh -L 30303:localhost:30303 -L 4001:localhost:4001 -L 8080:localhost:8080 -fN
+```
+
 ### Medium Difficulty Installation
 
 **Dependencies**: this method requires Docker and Docker-Compose to be installed (please see above for installation instructions). Once those are installed then clone this repository:
@@ -140,6 +148,8 @@ The second way you could work is to link into the public testing chain which we 
 Note that depending on your system setup `sudo` command may or may not be necessary.
 
 Note that when using the testing composition with the `cd spec`, you will want to wait about 60 seconds after the containers boot before working with the API. This is to allow the chain to be established and the contracts to be deployed.
+
+**Note** if you are running the DApp in OSX or Windows please see the boot2docker note above.
 
 #### Warning When Using Containers
 
