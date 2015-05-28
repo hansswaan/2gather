@@ -115,7 +115,7 @@ Whichever command sequence you use, you should now have the DApp running in your
 If you are running docker in OSX or Windows you will not be able to use `localhost` by default so you will need to access the dapp via the boot2docker's VM IP address. This can be acquired by `boot2docker ip`. In addition you will need to forward your ports from the boot2docker VM to the host with this command:
 
 ```bash
-boot2docker ssh -L 30303:localhost:30303 -L 4001:localhost:4001 -L 8080:localhost:8080 -fN
+boot2docker ssh -L 30303:localhost:30303 -L 15254:localhost:15254 -L 4001:localhost:4001 -L 8080:localhost:8080 -fN
 ```
 
 ### Medium Difficulty Installation
